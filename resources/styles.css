@@ -113,6 +113,36 @@ i.fab.fa-github {
     width: 50%;
 }
 
+.right {
+    text-align: center;
+}
+
+.right h2 {
+    color: #8F6967;
+    font-weight: 700;
+    font-size: 30px;
+}
+
+.right hr {
+    width: 200px;
+    border: 0.5px solid #a8a8a8;
+}
+
+.right ul {
+    margin: 0px;
+    padding: 0px;
+}
+
+.right ul li {
+    display: inline-block;
+    width: 30px;
+    padding: 0px;
+    margin: 0px;
+    list-style: none;
+    color: #171717;
+    font-size: 25px;
+}
+
 footer {
     display: flex;
     flex-direction: row;
@@ -128,9 +158,9 @@ footer a {
     list-style: none;
     text-decoration: none;
     font-weight: 400;
-    padding-top: 10px;
+    padding-top: 15px;
     margin-left: 10px;
-    font-size: 30px;
+    font-size: 25px;
     color: #D9D9D9;
     transition: color 0.2s linear;
 }
