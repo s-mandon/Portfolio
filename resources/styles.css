@@ -56,6 +56,15 @@ nav li {
     transition: color linear 0.2s;
 }
 
+.current {
+    background: #643131;
+    border-radius: 5px;
+    color: #fff;
+    font-weight: 700;
+    padding: 10px;
+    opacity: 1;
+}
+
 li:hover {
     color: #fff;
 }
