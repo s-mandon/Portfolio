@@ -16,7 +16,7 @@ body {
 }
 
 .bgimg {
-    background: url(/resources/bg.png);
+    background: url(https://imgur.com/QF9Hdkn.png);
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
@@ -43,16 +43,28 @@ nav {
 
 nav ul {
     list-style: none;
-    padding: 15px;
-    padding-right: 70px;
+    padding-right: 30px;
 }
 
 li {
     display: inline-block;
     text-transform: uppercase;
-    width: 160px;
-    font-weight: 700;
+    margin-right: 70px;
+    font-weight: 400;
     color: #000;
+    transition: color linear 0.2s;
+}
+
+li:hover {
+    color: #fff;
+}
+
+i.fab.fa-github {
+    display: block;
+    position: relative;
+    font-size: 40px;
+    top: 9px;
+
 }
 
 .heading {
