@@ -1,3 +1,4 @@
+
 html,body
 {
     width: 100%;
@@ -46,7 +47,7 @@ nav ul {
     padding-right: 30px;
 }
 
-li {
+nav li {
     display: inline-block;
     text-transform: uppercase;
     margin-right: 70px;
@@ -68,17 +69,21 @@ i.fab.fa-github {
 }
 
 .heading {
-    padding: 200px;
+    padding: 240px;
 }
 
 .heading h2 {
     text-transform: uppercase;
     font-weight: 600;
+    font-size: 30px;
+    line-height: 0px;
 }
 
 .heading h1 {
     font-weight: 600;
     color: #fff;
+    font-size: 40px;
+    line-height: 30px;
 }
 
 .transparentbar {
@@ -105,14 +110,37 @@ footer {
     justify-content: space-between;
     background: #3D3D3D;
     color: #D9D9D9;
-    height: 40px;
+    height: 60px;
     width: 100%;
 }
 
-footer li {
-    text-transform: none;
+footer a {
+    display: inline-block;
+    list-style: none;
+    text-decoration: none;
     font-weight: 400;
-    font-size: 16px;
-    padding: 10px;
+    padding-top: 10px;
+    margin-left: 10px;
+    font-size: 30px;
     color: #D9D9D9;
+    transition: color 0.2s linear;
+}
+
+footer a:hover {
+    color: #fff;
+    transition: color 0.2s linear;
+}
+
+ul.navbar-right.ft2 {
+    padding-right: 50px;
+}
+
+ul.navbar-left.ft1 {
+    list-style: none;
+    padding-top: 20px;
+    font-size: 16px;
+}
+
+.fa-copyright {
+    padding-right: 5px;
 }
